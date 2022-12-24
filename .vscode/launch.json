@@ -1,0 +1,24 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "node",
+            "runtimeVersion": "18",
+            "request": "launch",
+            "name": "hello",
+            "program": "${userHome}/.nvm/versions/node/v16.16.0/bin/sls",
+            "args": [
+              "invoke",
+              "local",
+              "-f",
+              "hello",
+              "-p",
+              "fixtures/blocks.json",
+              "--aws-profile",
+              "antonio",
+              "-s",
+              "test"
+            ]
+          },
+    ]
+}
