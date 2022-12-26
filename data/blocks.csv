@@ -1,0 +1,7 @@
+height,timestamp,human_date,txs_count,vm_status,type,gas_used,max_gas_amount,gas_unit_price
+19981857,1667302274342086,2022-11-01T11:31:14,3,Executed successfully,block_metadata_transaction,0,NA,NA
+19981858,1667302274342086,2022-11-01T11:31:14,9,Executed successfully,user_transaction,2515,10000,101
+19981859,1667302274342086,2022-11-01T11:31:14,7,Executed successfully,user_transaction,1509,10000,101
+19981857,1667302274342086,2022-11-01T11:31:14,3,Executed successfully,block_metadata_transaction,0,NA,NA
+19981858,1667302274342086,2022-11-01T11:31:14,9,Executed successfully,user_transaction,2515,10000,101
+19981859,1667302274342086,2022-11-01T11:31:14,7,Executed successfully,user_transaction,1509,10000,101

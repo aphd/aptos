@@ -3,22 +3,25 @@
     "configurations": [
         {
             "type": "node",
-            "runtimeVersion": "18",
+            "runtimeVersion": "19",
             "request": "launch",
-            "name": "hello",
+            "name": "getBlocks",
             "program": "${userHome}/.nvm/versions/node/v16.16.0/bin/sls",
             "args": [
               "invoke",
               "local",
               "-f",
-              "hello",
+              "getBlocks",
               "-p",
-              "fixtures/blocks.json",
+              "fixtures/txs.json",
               "--aws-profile",
               "antonio",
               "-s",
               "test"
-            ]
+            ],
+            "env": {
+                "TXS_FIXTURE": "fixtures/txs.json",
+              }
           },
     ]
 }
