@@ -20,7 +20,7 @@
               "test"
             ],
             "env": {
-                "TXS_FIXTURE": "fixtures/txs.json",
+                // "TXS_FIXTURE": "fixtures/txs.json",
               }
           },
     ]
