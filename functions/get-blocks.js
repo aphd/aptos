@@ -2,8 +2,8 @@ const fs = require('node:fs').promises;
 const { TXS_FIXTURE } = process.env;
 const BLOCKS_FN = './data/blocks.csv';
 const TXS_FN = './data/txs.csv';
-const START = 19_002_000;
-const MAX_BLOCKS = 1_000;
+const START = 19_015_000;
+const MAX_BLOCKS = 5_000;
 
 module.exports.handler = async (_) => {
     const rawTxs = await getTxs();

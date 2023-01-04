@@ -1,9 +1,0 @@
-# https://explorer.aptoslabs.com/transactions
-
-### GET transactions
-GET https://fullnode.mainnet.aptoslabs.com/v1/transactions?start=19900000&limit=10000
-Content-Type: application/json
-
-###  GET Blocks
-GET https://fullnode.mainnet.aptoslabs.com/v1/blocks/by_height/32425224034
-Content-Type: application/json
